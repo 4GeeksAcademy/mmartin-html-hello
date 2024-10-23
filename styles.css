@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background:red;
+    font-family: "Roboto",serif;
+}
+
+.post {
+    width:400px;
+    height:500px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:50px;
+}
+.post-header {
+    display:flex;
+    background:white;
+}
+
+.author {
+    display: flex;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+    font-size:12px;
+}
+
+[class*="fa-html5"]{
+   font-size: 35px; 
+   padding-right:6px;
+}
+
+[class*="fa-ellipsis-vertical"]{
+    font-size: 25px; 
+    margin-top:10px;
+    margin-left:285px;
+}
+
+.post-img {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.post-img img {
+    width:100%;
+}
+
+.post-body{
+    max-width: 100%;
+    background:white;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.post-body p {
+    font-size: 12px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.action-buttons {
+    font-size:25px;
+    margin-left:10px;
+    margin-top: 8px;
+}
+
+[class*='fa-bookmark']{
+    float:right;
+    margin-right: 10px;
+}
+
