@@ -2,55 +2,50 @@
     box-sizing: border-box;
 }
 body {
-    background:red;
+    background:black;
     font-family: "Roboto",serif;
 }
 
 .post {
     width:400px;
-    height:500px;
-    margin-left: auto;
-    margin-right:auto;
-    margin-top:50px;
+    margin: 40px auto;
 }
 .post-header {
     display:flex;
     background:white;
+    padding-top:10px;
+    padding-bottom:6px;
 }
 
 .author {
     display: flex;
-    margin-left:10px;
-    margin-top:10px;
+    margin-left:12px;
     float:left;
     font-size:12px;
 }
 
-[class*="fa-html5"]{
+.author i{
    font-size: 35px; 
-   padding-right:6px;
+   padding-right:8px;
 }
 
-[class*="fa-ellipsis-vertical"]{
+[class*='fa-solid fa-ellipsis-vertical'] {
+    float:right;
     font-size: 25px; 
-    margin-top:10px;
-    margin-left:285px;
+    margin-right:12px;
+    margin-left:auto;
 }
 
 .post-img {
     width: 100%;
-    margin-bottom: 0px;
+    display: block;
 }
 
-.post-img img {
-    width:100%;
-}
 
 .post-body{
     max-width: 100%;
     background:white;
-    padding: 5px;
-    margin-top: 0px;
+    padding: 5px 5px 10px 5px;
 }
 
 .post-body p {
